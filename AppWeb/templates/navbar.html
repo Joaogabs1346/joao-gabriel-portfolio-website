@@ -1,0 +1,24 @@
+    <!-------------- Navbar -------------->
+    <header>
+        <nav id="navbar" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800">
+            <div class="logo">
+                <img src="/Images/Logo.png" alt="">
+            </div>
+            <!-- Hamurger -->
+            <input type="checkbox" class="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+            <ul class="nav-items">
+                <li><a href="{{url_for('home')}}">Home</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+                <li><a href="{{url_for('servicos')}}">Services</a></li>
+                <li><a href="{{url_for('resume')}}">Resume</a></li>
+                <li><a href="{{url_for('portfolio')}}">Portfolio</a></li>
+
+            </ul>
+        </nav>
+    </header>
